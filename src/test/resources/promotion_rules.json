@@ -1,0 +1,15 @@
+[
+  {
+    "type": "MultiBuyFixedDiscountPromotionRule",
+    "description": "If you buy 2 or more travel card holders then the price drops to £8.50",
+    "productId": "001",
+    "minQuantity": 2,
+    "discountedPrice": 8.50
+  },
+  {
+    "type": "PercentagePromotionRule",
+    "description": "If you spend over £60, then you get 10% off your purchase",
+    "minSpend": 60,
+    "discountPercentage": 0.1
+  }
+]
